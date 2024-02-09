@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { AppReducer } from "./App-Reducer";
+import { AppMemo } from "./App-Mem";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppReducer />);
+root.render(<AppMemo />);
